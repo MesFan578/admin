@@ -1,0 +1,21 @@
+@import './reset.scss';
+
+
+//全局样式 
+
+//滚动条样式设置 
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: $base-menu-bgc;
+
+}
